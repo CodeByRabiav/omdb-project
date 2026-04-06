@@ -36,11 +36,7 @@ Do **not** attempt to push changes directly to this repository or any of its bra
    - Users should be able to perform multiple searches without refreshing the page.  
    - If the page is refreshed, the last search view should be retained.
 
-5. **Debounced API Calls**  
-   - Search requests must be **debounced** to avoid excessive API calls.  
-   - Failure to implement debounce will result in point deductions.
-
-6. **Backend Proxy (Optional)**  
+5. **Backend Proxy (Optional)**  
    - If you implement a backend, it should handle API requests and return clean JSON to the frontend.
 
 ---
