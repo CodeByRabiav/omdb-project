@@ -36,6 +36,9 @@ This project is designed to evaluate your coding skills in web development. You 
 * If your project meets all the requirements, you may extend it with additional functionalities.
 * After development, you must deploy the project using [GitHub Pages](https://pages.github.com). **Projects that are not deployed to GitHub Pages will not be evaluated and will receive 0 points.**
 
+You must **create your own repository using this template** and upload your work there. 
+Do **not** attempt to push changes directly to this repository or any of its original branches.
+
 ---
 
 ## Functional Requirements
