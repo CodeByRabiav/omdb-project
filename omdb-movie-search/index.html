@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OMDb Film Search</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Google Fonts ekleyerek tasarımı şıklaştıralım -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div class="container">
+        <h1>OMDb Explorer</h1>
+        
+        <div class="search-box">
+            <input type="text" id="movieInput" placeholder="Enter the film title... (e.g. Inception)">
+            <button id="searchBtn">Search</button>
+        </div>
+
+        <div id="loader" class="loader hidden"></div>
+
+        <div id="result" class="result-container">
+            <!-- Film sonuçları buraya gelecek -->
+            <p class="welcome-msg">Search for a film to discover!</p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
