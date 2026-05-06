@@ -37,10 +37,10 @@ async function getMovieData(title) {
             displayMovie(fullDetails);
             localStorage.setItem('lastMovie', title);
         } else {
-            resultDiv.innerHTML = `<p class="error-msg">Hata: ${searchData.Error}</p>`;
+            resultDiv.innerHTML = `<p class="error-msg">Error: ${searchData.Error}</p>`;
         }
     } catch (error) {
-        resultDiv.innerHTML = `<p class="error-msg">Bağlantı hatası oluştu!</p>`;
+        resultDiv.innerHTML = `<p class="error-msg">A connection error has occurred!</p>`;
     }
 }
 
@@ -53,10 +53,10 @@ function displayMovie(movie) {
             <img src="${poster}" alt="${movie.Title}">
             <div class="movie-info">
                 <h2>${movie.Title} (${movie.Year})</h2>
-                <p><strong>Yönetmen:</strong> ${movie.Director !== 'N/A' ? movie.Director : 'Bilgi Yok'}</p>
-                <p><strong>Tür:</strong> ${movie.Genre !== 'N/A' ? movie.Genre : 'Bilgi Yok'}</p>
-                <p><strong>IMDb Puanı:</strong> ⭐ ${movie.imdbRating !== 'N/A' ? movie.imdbRating : 'Puan Yok'}</p>
-                <p><strong>Özet:</strong> ${movie.Plot !== 'N/A' ? movie.Plot : 'Özet bulunamadı.'}</p>
+                <p><strong>Director:</strong> ${movie.Director !== 'N/A' ? movie.Director : 'No information available'}</p>
+                <p><strong>Type:</strong> ${movie.Genre !== 'N/A' ? movie.Genre : 'No information available'}</p>
+                <p><strong>IMDb Rating:</strong> ⭐ ${movie.imdbRating !== 'N/A' ? movie.imdbRating : 'No points'}</p>
+                <p><strong>Summary:</strong> ${movie.Plot !== 'N/A' ? movie.Plot : 'No summary found.'}</p>
             </div>
         </div>
     `;
