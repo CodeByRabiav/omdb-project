@@ -1,35 +1,37 @@
 #  OMDB Movie Search Project
 
-Bu proje, kullanıcıların **OMDB API** veritabanını kullanarak istedikleri filmleri anlık olarak arayabildikleri, modern ve responsive bir **Single Page Application (SPA)** uygulamasıdır. Kullanıcı dostu bir arayüz ile film detaylarına hızlı erişim sağlamak amacıyla geliştirilmiştir.
+This project is a modern and responsive **Single Page Application (SPA)** that allows users to instantly search for films using the **OMDB API** database. It has been developed with a user-friendly interface to provide quick access to movie details.
 
-##  Canlı Demo
-Projenin çalışan versiyonuna buradan ulaşabilirsiniz:
-   [https://codebyrabiav.github.io/omdb-project/]
+##  Live Demo
+You can access the live version of the project here:
+🔗 [https://codebyrabiav.github.io/omdb-project/]
 
-##  Temel Özellikler
-*   **Dinamik Arama:** Sayfa yenilenmesine gerek kalmadan, JavaScript (Fetch API) kullanılarak gerçek zamanlı film araması yapılır.
-*   **Detaylı Film Kartları:** Aranan her film için; Başlık, Yapım Yılı, Tür, Yönetmen ve Film Afişi gibi kritik bilgiler çekilerek şık bir tasarımda sunulur.
-*   **Responsive Tasarım:** Uygulama; masaüstü, tablet ve mobil cihaz ekranlarına tam uyumlu (responsive) olacak şekilde CSS ile optimize edilmiştir.
-*   **Gelişmiş Hata Yönetimi:** Geçersiz film isimleri veya API kaynaklı hatalar durumunda kullanıcıya anlamlı ve yönlendirici hata mesajları gösterilir.
-*   **Veri Kalıcılığı:** `LocalStorage` entegrasyonu sayesinde sayfa yenilense bile kullanıcının yaptığı son arama sonucu ekranda korunur.
+##  Key Features
+*   **Dynamic Search:** Real-time movie searching using JavaScript (Fetch API) without refreshing the page.
+*   **Detailed Movie Cards:** Critical information such as Title, Year, Genre, Director, and Poster is fetched and presented in a sleek design.
+*   **Responsive Design:** The application is fully optimized with CSS to be compatible across desktop, tablet, and mobile screens.
+*   **Advanced Error Handling:** Clear and helpful error messages are displayed in case of invalid movie names or API issues.
+*   **Data Persistence:** Thanks to `LocalStorage` integration, the last search result is preserved even if the page is refreshed.
 
-##  Kullanılan Teknolojiler
-*   **Dil:** HTML5, CSS3, JavaScript (ES6+)
+##  Technologies Used
+*   **Languages:** HTML5, CSS3, JavaScript (ES6+)
 *   **API:** [OMDB API](http://www.omdbapi.com/)
-*   **Versiyon Kontrol:** Git & GitHub
-*   **Yayınlama:** GitHub Pages
+*   **Version Control:** Git & GitHub
+*   **Deployment:** GitHub Pages
 
-##  Kurulum ve Yerel Çalıştırma
-Projeyi kendi bilgisayarınızda çalıştırmak isterseniz:
+##  Installation and Local Setup
+To run this project on your local machine:
 
-1.  Repoyu klonlayın:
+1.  Clone the repository:
     ```bash
-    git clone [https://github.com/KullaniciAdin/omdb-project.git](https://github.com/KullaniciAdin/omdb-project.git)
-2.  Proje klasörüne gidin:
+    git clone [https://github.com/codebyrabiav/omdb-project.git](https://github.com/codebyrabiav/omdb-project.git)
+    ```
+2.  Navigate to the project folder:
     ```bash
     cd omdb-project
-3.  index.html dosyasını tarayıcınızda açın.
+    ```
+3.  Open the `index.html` file in your browser.
 
-Geliştirici: Rabia Vural
-
-Pozisyon: Yazılım Mühendisliği 3. Sınıf Öğrencisi
+---
+**Developer:** Rabia Vural  
+**Position:** 3rd Year Software Engineering Student
